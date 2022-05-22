@@ -4,7 +4,8 @@
   "description": "MakeRemoteWork",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./sass/main.scss:./style.css "
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/chrisnaf92i/SnapRemote/issues"
   },
-  "homepage": "https://github.com/chrisnaf92i/SnapRemote#readme"
+  "homepage": "https://github.com/chrisnaf92i/SnapRemote#readme",
+  "dependencies": {
+    "sass": "^1.52.1"
+  }
 }
